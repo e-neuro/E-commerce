@@ -1,0 +1,105 @@
+.banner{
+    text-align: center;
+    padding: 30px;
+    background-image: url("img/b2.jpg");
+}
+.banner h1{
+    font-size: 70px;
+    color: white;
+}
+.banner p{
+    font-size: 40px;
+    color: white;
+}
+span{
+    font-size: 20px;
+}
+.pro-container{
+    padding: 40px 80px;
+}
+.description h3{ 
+    font-size: 32px;
+    padding: 5px;
+    margin-left: -10px;
+    color:#088178;
+}
+
+.description h4{
+    font-size: 20px;
+    color:#1a1a1a;
+}
+.description a i{
+    color: black;
+}
+
+.description .star{
+    color: rgb(243, 181, 25);
+    margin: 12px;
+    margin-left: -6px;
+}
+
+.pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 20px 12px;
+    border:1px solid #cce7d0;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    transition: 0.2s ease;
+    position: relative;
+}
+.pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+.pro img{
+    width: 100%;
+    border-radius: 15px;
+}
+.description span{
+    color: #606063;
+    font-size: 20px;
+}
+.cart{
+    background: #088178;
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    padding: 12px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+.pro:hover .cart {
+    opacity: 1;
+}
+.pro-container{
+    display: grid;
+    gap: 20px; 
+    padding: 20px;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    justify-content: space-evenly;
+    margin-left: 50px; 
+}
+
+
+/* experiment */
+#cart-icon {
+    position: relative;
+    display: inline-block;
+}
+
+.cart-item-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 12px;
+    display: none; /* Initially hidden */
+}

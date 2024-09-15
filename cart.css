@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&family=DM+Serif+Text:ital@0;1&display=swap');
+.banner{
+    text-align: center;
+    padding: 30px;
+    background-image: url("img/banner.png");
+}
+.banner h1{
+    font-size: 70px;
+    color: white;
+}
+.banner p{
+    font-size: 40px;
+    color: white;
+}
+.section{
+    padding: 40px 80px;
+}
+table{
+    width: 100%;
+    border-collapse:collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+thead td{
+    font-size: 25px;
+}
+/* cart page */
+
+#cart table img{
+    width: 70px;
+}
+
+#cart table td:nth-child(1){
+    width: 100px;
+    text-align: center;
+}
+#cart table td:nth-child(2){
+    width: 150px;
+    text-align: center;
+}
+#cart table td:nth-child(3){
+    width: 250px;
+    text-align: center;
+}
+#cart table td:nth-child(4),#cart table td:nth-child(5),#cart table td:nth-child(6){
+    width: 150px;
+    text-align: center;
+}
+#cart table td:nth-child(5) input{
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+}
+#cart table thead{
+    border: 1px solid #e2e9e1;
+    border-left: none;
+    border-right: none;
+}
+#cart table thead td{
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px 0px;
+}
+#cart table tbody tr td{
+    padding-top: 100px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+tbody td{
+    font-size: 18px;
+}
+.subtotal table{
+    width: 600px;
+}
+.subtotal{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.subtotal button{
+    width: 30%;
+}
+#cartadd{
+    display: flex;
+    justify-content: center;
+}
+.subtotal{
+    margin: 25px 100%;
+}
+
+#cartadd .subtotal table tr td{
+    padding-top: 10px;
+    text-align: center;
+}
+.subtotal h3{
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    font-family: "DM Serif Text", serif;
+}
+.subtotal button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color:#088178;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    align-self: center;
+}
+.subtotal tr td{
+    font-size: 25px;
+}
+.subtotal tr th{
+    font-size: 25px;
+}
+
+#cartadd{
+    background-image: url(img/bg3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+    width: 700px;
+    margin-left: 370px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+}
+.subtotal tr td{
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+.subtotal tr th{
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+}
